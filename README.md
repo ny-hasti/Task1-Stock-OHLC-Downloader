@@ -2,6 +2,43 @@
 This script downloads historical stock data using yfinance based on user-entered symbol, date range, and timeframe. It cleans, formats, and resamples the OHLCV data, then saves the processed output to a CSV file. Supports multiple intervals and automatically appends new data to existing files.
 How It Works (Easy Explanation)
 
+# step
+🛠 Requirements
+Install dependencies:
+
+pip install yfinance pandas
+
+***📥 User Inputs***
+When you run the script, it will ask:
+1. Stock Symbol
+Example:
+
+SBIN.NS
+RELIANCE.NS
+INFY.NS
+
+
+2. Start Date
+Format → YYYY-MM-DD
+Example:
+
+2023-01-01
+
+
+3. End Date
+Format → YYYY-MM-DD
+Example:2023-12-31
+
+
+4. Timeframe (Interval)
+Choose from:
+1m, 2m, 5m, 15m, 30m, 60m, 
+90m, 1h, 1d, 5d, 1wk, 
+1mo, 3mo
+
+
+
+# 💡 How It Works
 ***1️⃣ User Enters Details***
 You type symbol, date range, and timeframe.
 
